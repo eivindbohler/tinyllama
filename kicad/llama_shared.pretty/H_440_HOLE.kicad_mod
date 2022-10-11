@@ -1,0 +1,12 @@
+(module H_440_HOLE (layer F.Cu) (tedit 5FFECC6F)
+  (descr "Mounting Hole 3.2mm, M3, ISO7380")
+  (tags "mounting hole 3.2mm m3 iso7380")
+  (attr virtual)
+  (fp_text reference HOLE1 (at 0 -4.445) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value HOLE (at 0 4.445) (layer Dwgs.User) hide
+    (effects (font (size 1.016 0.9144) (thickness 0.2032) italic))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
+)

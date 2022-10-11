@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "llama_shared")(type "KiCad")(uri "${KIPRJMOD}/llama_shared.kicad_sym")(options "")(descr ""))
+)
