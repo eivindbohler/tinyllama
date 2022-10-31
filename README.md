@@ -125,7 +125,7 @@ If you're willing to spend slightly more, I recommended you let the PCB manufact
 Take a look at the [wiki][wiki-assembly] for more in-depth assembly instructions.
 
 ### Programming the BIOS
-When purchasing the SOM-128-EX module from DMP, its ROM chip is preinstalled with an Arduino-like bootloader which is useless to us. Also, the  "crossbar" is configured for using the module with the 86Duino Zero/One boards - meaning its default pin layout is completely different from what we need for the TinyLlama.
+When purchasing the SOM-128-EX module from DMP, its ROM chip comes preinstalled with an Arduino-like bootloader which is useless to us. Also, the  "crossbar" is configured for using the module with the 86Duino Zero/One boards - meaning its default pin layout is completely different from what we need for the TinyLlama.
 
 Follow these steps to flash the ROM with the TinyLlama BIOS for the first time:
 1. Find a USB flash drive, must be minimum 32 MB in size (shouldn't be a problem these days). Note that not all USB drives are bootable. Use a well-known bootable drive.
@@ -190,7 +190,7 @@ C:\UNISOUND\UNISOUND.EXE /V60 /VW60 /VF60 /VL60 /VP60 /VC0 /VM0
 For an in-depth discussion of the various components, installation, configuration, etc, take a look at the [wiki][wiki].
 
 ## Help
-This project is mostly indended for people with a fair bit of hardware- and DOS knowledge. If you have questions or need help, please look at the [wiki][wiki] and [FAQ][wiki-faq] section first.
+This project is indended for people with a fair bit of hardware- and DOS knowledge. If you have questions or need help, please look at the [wiki][wiki] and [FAQ][wiki-faq] section first.
 
 ## Roadmap
 Coming.  
