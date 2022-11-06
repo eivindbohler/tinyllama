@@ -1,2 +1,3 @@
 ### Hardware revision 1.1 errata
 - The voltage potential between the anode and cathode on LEDs D2 and D3 is enough to dimly light them up in their off-state, instead of being completely shut off. A fix would be to use a tiny knife or scalpel and cut the trace between R11 and R22, and put a bodge wire beteen R11 and one of the +3.3V pads, for instance on P5.
+- There's a lack of bulk capacitors across the 5V and GND pins of the Type-A USB connector. Ideally and according to spec, each downstream USB connector should be decoupled from the 5V rail using a large capacitor (~100-300uF) in order to prevent 5V rail drooping if USB devices with high capacitance (above the spec'ed 10uF) are connected.
