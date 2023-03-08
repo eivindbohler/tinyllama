@@ -1,3 +1,7 @@
+> **Note**  
+> Version 2 of the TinyLlama is out!  
+> Go here to read more: https://github.com/eivindbohler/tinyllama2
+
 <div id="summary" align="center">
   <img src=images/tinyllama.png title="TinyLlama" width=90%>
 </div>
